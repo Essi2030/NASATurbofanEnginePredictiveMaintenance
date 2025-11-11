@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+turbofan_env/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dataset files (large files - users should download separately)
+train_FD*.txt
+test_FD*.txt
+RUL_FD*.txt
+
+# Generated outputs
+*.png
+*.jpg
+*.jpeg
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Documentation (optional - can be committed if desired)
+*.docx
+*.pdf
+~$*
+
+# Logs
+*.log
+
+# Data directories
+data/
+datasets/
+
